@@ -11,5 +11,5 @@ function BMI() {
     // Calculating for BMI
     let heightInMeters = heightInCentimeters / 100;
     let result = weightInKilograms / (heightInMeters * heightInMeters);
-    document.getElementById("result").innerHTML = 'BMI Result: ' + result;
+    document.getElementById("result").innerHTML = 'BMI Result: ' + result +"%.";
 }
